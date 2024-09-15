@@ -1,0 +1,70 @@
+ 
+   .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create_form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .create_form input {
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    outline: none;
+    margin-right: 10px; /* Add spacing between input and button */
+  }
+  
+  .create_form button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create_form button:hover {
+    background-color: #333; /* Add hover effect for button */
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 40px; /* Increased height for better visibility */
+    padding: 5px 10px; /* Adjust padding for more space */
+    margin-top: 5px; /* Increased margin for spacing between tasks */
+    border-radius: 5px; /* Rounded corners for task box */
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .checkbox .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .task div span {
+    margin: 0px 10px; /* Adjusted margin for better spacing */
+  }
+  
+  .task div .icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .task div .icon:hover {
+    color: red; /* Highlight trash icon on hover */
+  }
+    
